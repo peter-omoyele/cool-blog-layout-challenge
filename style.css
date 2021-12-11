@@ -22,10 +22,29 @@ header {
     padding: 20px;
 }
 
+.login {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    background-color: #264653;
+    color: #fff;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e76f51;
+}
+
 h1 {
     width: max-content;
     margin: auto;
-    border-bottom: 3px dotted #264653;
+    border-bottom: 3px solid #e9c46a;
+    padding-bottom: 5px;
     margin-bottom: 30px;
 }
 
@@ -38,18 +57,23 @@ main {
     grid-auto-flow: dense; 
 }
 
-
-
 h2 {
     line-height: 1.4;
 }
 
 .liver {
     background-color: #e76f51;
+    padding: 5px;
+}
+
+.happier {
+    background-color: #2a9d8f;
+    padding: 5px;
 }
 
 .life {
     background-color: #e9c46a;
+    padding: 5px;
 }
 
 .avatar {
