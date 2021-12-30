@@ -9,10 +9,6 @@
     
 }
 
-body {
-    height: 100vh;
-}
-
 header { 
     display: flex;
     align-items: center;
@@ -52,8 +48,8 @@ main {
     width: 95%;
     margin: auto;
     display: grid;
-    grid-template-columns: 1fr 1.5fr 1fr 1.3fr;
-    gap: 20px; 
+    grid-template-columns: 1fr 1.3fr 1fr 1.2fr;
+    gap: 1rem; 
     grid-auto-flow: dense; 
 }
 
